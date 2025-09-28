@@ -15,6 +15,7 @@ body {
 
 /* Add form label styling */
 .form-label {
+  max-width: 700px;
   display: block;
   text-align: left;
   margin-bottom: 15px;
@@ -77,7 +78,7 @@ body {
 
 /* Main container */
 .container {
-  max-width: 700px;
+  max-width: 850px;
   width: 90%;
   margin: 0 auto 20px;
   padding: 26px;
@@ -244,8 +245,7 @@ button .fas {
   padding: 16px 20px;
   border-radius: 8px;
   color: #333;
-  margin-bottom: 15px;
-  display: none;
+  display: center;
 }
 
 .success-message {
